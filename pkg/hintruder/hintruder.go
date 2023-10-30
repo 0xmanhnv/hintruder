@@ -1,5 +1,9 @@
 package hintruder
 
-var Headers = make(map[string]string)
+type Hintruder struct {
+	Request Request
+}
 
-type Data interface{}
+func (h *Hintruder) Run() {
+
+}

@@ -6,5 +6,8 @@ import (
 
 func main() {
 	// cmd.Execute()
-	hintruder.ParserRequest("test.txt")
+	request := hintruder.ParserRequest("test.txt")
+	request.Https = true
+	// print(request.Do())
+	request.Do()
 }
