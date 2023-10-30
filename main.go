@@ -1,7 +1,10 @@
 package main
 
-import "hintruder/cmd"
+import (
+	"hintruder/pkg/hintruder"
+)
 
 func main() {
-	cmd.Execute()
+	// cmd.Execute()
+	hintruder.ParserRequest("test.txt")
 }
