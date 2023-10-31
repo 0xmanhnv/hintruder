@@ -1,18 +1,14 @@
-POST /github/collect HTTP/1.1
-Host: collector.github.com
-Cookie: _octo=GH1.1.1418049081.1686813528; logged_in=yes; dotcom_user=0xmanhnv; color_mode=%7B%22color_mode%22%3A%22dark%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; preferred_color_mode=dark; tz=Asia%2FHo_Chi_Minh
+GET / HTTP/1.1
+Host: en8tktcaii2zk.x.pipedream.net
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
-Accept: */*
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: https://github.com/xscorp/Burpee/blob/master/burpee.py
-Content-Type: text/plain;charset=UTF-8
-Content-Length: 1142
-Origin: https://github.com
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: no-cors
-Sec-Fetch-Site: same-site
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
 Te: trailers
 Connection: close
 
-{"client_id":"1418049081.1686813528","events":[{"page":"https://github.com/xscorp/Burpee/blob/master/burpee.py","title":"Burpee/burpee.py at master · xscorp/Burpee","context":{"actor_id":"18032641","actor_login":"0xmanhnv","actor_hash":"d437f0ac92c2ad87c4b8114bca7ae678346f331f54f0c57b3fdcc609e1087019","user_id":"37046662","user_login":"xscorp","repository_id":"215312510","repository_nwo":"xscorp/Burpee","repository_public":"true","repository_is_fork":"false","repository_network_root_id":"215312510","repository_network_root_nwo":"xscorp/Burpee","referrer":"https://github.com/xscorp/Burpee","request_id":"7FAD:19449C:15CA269:183ACCA:653F917D","visitor_id":"6090474428704668504","region_edge":"southeastasia","region_render":"iad","staff":"false","react":"true","reactApp":"react-code-view","reactPartials":"","ssr":"false","inp":"36.0000"},"type":"web-vital"}],"request_context":{"referrer":"","user_agent":"Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0","screen_resolution":"1366x768","browser_resolution":"1356x581","browser_languages":"en-US,en","pixel_ratio":1,"timestamp":1698666345356,"tz_seconds":25200}}
